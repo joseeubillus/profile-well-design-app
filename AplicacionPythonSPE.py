@@ -115,7 +115,7 @@ if tipo_pozo == 'Tipo 1':
         def arco (r,alfa):
             x=[]
             y=[]
-            for theta in range(0,int(alfa),1):
+            for theta in np.arange(0,np.round(alfa,1),0.1):
                 x.append(r*(1-np.cos(np.deg2rad(theta))))
                 y.append(v1+r*np.sin(np.deg2rad(theta)))
             
