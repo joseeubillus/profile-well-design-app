@@ -105,7 +105,7 @@ if tipo_pozo == 'Tipo 1':
         fig, ax1= plt.subplots()
         ax1.set_title('TRAYECTORIA POZO TIPO 1')
         ax1.set_ylabel('TVD (ft)')
-        ax1.set_xlim(xmin=-100,xmax=d2+1000)
+        ax1.set_xlim(xmin=-100,xmax=v3+1000)
         ax1.set_xlabel('Distancia horizontal (ft)')
         ax1.set_ylim(ymin=0,ymax=v3+1000)
         ax1.invert_yaxis()
